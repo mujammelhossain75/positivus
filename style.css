@@ -37,13 +37,6 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.logo{ 
-    width: 200px;
-}
-.logo img{
-    width: 170px;
-    
-}
 .menu{
     width: 800px;
 }
@@ -65,8 +58,6 @@ header{
 
 }
 .menu-b{
-    width: 217px;
-    height: 50px;
     padding: 20px 35px 20px 35px;
     gap: 10px;
     border-radius: 14px;
@@ -78,6 +69,6 @@ header{
     align-items: center;
 
 }
-.mobile-menu{
+.close-menu, .open-menu{
     display: none;
 }
