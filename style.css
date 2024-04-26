@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
+    box-sizing: border-box;
 }
 a{
 	text-decoration: none; 
@@ -14,4 +17,67 @@ ul{
 	margin: 0;
 	padding: 0;
     
+}
+body{
+    font-family: Space Grotesk;
+}
+/*-------------------
+Start Header Design
+-------------------*/
+header{
+    padding: 30px 0;
+    background-color:white;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{ 
+    width: 200px;
+}
+.logo img{
+    width: 170px;
+    
+}
+.menu{
+    width: 800px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul li{
+    padding: 0 8px;
+}
+.menu ul li a{
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: black;
+    text-transform: capitalize;
+
+}
+.menu-b{
+    width: 217px;
+    height: 50px;
+    padding: 20px 35px 20px 35px;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mobile-menu{
+    display: none;
 }
