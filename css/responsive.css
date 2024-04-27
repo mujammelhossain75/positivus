@@ -1,11 +1,11 @@
 @media (max-width: 991px) {
   
-    .menu ul{
+    .menu{
         flex-direction: column;
         align-items: center;
         justify-content: center;
         background-color: aquamarine;
-        width: 80%;
+        width: 90%;
         height: 100vh;
         position: fixed;
         top: 0;
@@ -18,16 +18,9 @@
     .menu ul li a{
         padding: 10px;
     }
-    .open-menu{
-        display: block;
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        font-size: 20px;
-    }
+    .open-menu,
     .close-menu{
-        display: flex;
-        justify-content: flex-end;
+        display: block;
     }
     .menu-b{
         padding: 10px 15px;
@@ -39,9 +32,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    
     }
-    #check:checked ~ .menu ul{
+    #check:checked ~ .menu{
         right: 0;
     }
 }

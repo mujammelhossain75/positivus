@@ -24,7 +24,128 @@ body{
 /*-------------------
 Start Header Design
 -------------------*/
-header{
+.wrapper{}
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{}
+nav{}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 30px 0;
+    
+}
+.logo{
+    width: 219.537px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 811px;
+}
+.menu li{
+    
+}
+.menu li a{
+    display: inline-block;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: black;
+    text-transform: capitalize;
+}
+.menu-b{
+    padding: 20px 30px 20px 30px;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.open-menu,
+.close-menu{
+    position: absolute;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+}
+.open-menu{
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu{
+    top: 20px;
+    right: 20px;
+}
+#check{
+    display: none;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #FFFFFF;
+}
+.header-content{
+}
+.dis-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    width: 500px;
+}
+.header-title{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.header-pera{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+}
+.header-btn{
+    display: flex;
+    padding: 20px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 14px;
+    background: #191A23;
+    color: #FFFFFF;
+}
+.header-img{
+    width: 580px;
+    flex-shrink: 0;
+}
+.header-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*header{
     padding: 30px 0;
     background-color:white;
 }
@@ -71,4 +192,4 @@ header{
 }
 .close-menu, .open-menu{
     display: none;
-}
+}*/

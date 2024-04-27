@@ -1,12 +1,13 @@
 (function($){
       'use positivus'
-//responsive menu
+      const mobilemenus = document.querySelector(".mobile-menus")
+      const menu = document.querySelector(".menu")
+
+      mobilemenus.addEventListener("click",() =>){
+        mobilemenus.classList.toggle("active");
+        menu.classList.toggle("active");
+      }
+      
 
 
-
-$('#check').on('click', function(){
-    $('.menu').show();
-})
-
-
-})(Javascript);
+}) (jquery);
