@@ -26,19 +26,22 @@ Start Header Design
 -------------------*/
 .wrapper{}
 .container{
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 header{}
-nav{}
+nav{
+}
 .nav-bar{
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    padding: 20px 0px;
     background-color: #FFFFFF;
-    padding: 30px 0;
+    z-index: 999;
+    position: fixed;
     
 }
 .logo{
@@ -46,10 +49,11 @@ nav{}
 }
 .menu{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 35px;
     width: 811px;
+    width: 800px;
 }
 .menu li{
     
@@ -64,14 +68,14 @@ nav{}
     text-transform: capitalize;
 }
 .menu-b{
-    padding: 20px 30px 20px 30px;
+    padding: 20px 30px ;
     gap: 10px;
     border-radius: 14px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
     font-size: 18px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .open-menu,
@@ -98,17 +102,19 @@ nav{}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0;
+    padding-top: 100px;
     background-color: #FFFFFF;
+    width: 100%;
 }
 .header-content{
 }
 .dis-flex{
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 35px;
-    width: 500px;
+    
 }
 .header-title{
     color: #000;
@@ -136,6 +142,7 @@ nav{}
     color: #FFFFFF;
 }
 .header-img{
+    padding-top: 30px;
     width: 580px;
     flex-shrink: 0;
 }
@@ -147,18 +154,179 @@ nav{}
     HEADER END
 -----------------*/
 .company-logo{
+    padding: 40px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 .images{
     flex-wrap: wrap;
-    width: 100%;
     height: auto;
-    margin: 10px;
     text-align: center;
 }
 .images img{
     max-width: 100%;
     height: auto;
+}
+/*----------------
+   LOGOTYPES END
+-----------------*/
+.header-subtitle{}
+.subtitle{
+    padding: 20px 0px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.sub-1{
+    width: 164px;
+    height: 51px;
+    background-color: #B9FF66;
+    border-radius: 12px;
+    margin-right: 40px;
+}
+.sub-1 h2{
+    font-family: "Space Grotesk";
+    font-size: 45px;
+    font-style: normal;
+    font-weight:500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.sub-2{
+    width: 580px;
+    height: auto;
+    flex-shrink: 0;
+}
+.sub-2 p{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*----------------
+   SUBTITLE END
+-----------------*/
+.card-section{}
+.card-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 0;
+}
+.card-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    padding: 50px;
+    background: var(--Grey, #F3F3F3);
+    border-radius: 45px;
+    border: 1px solid var(--Dark, #191A23);
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+.heading, .heading-2, .heading-3, .heading-4{
+    padding-bottom: 90px;
+}
+.heading label, .heading-4 label{
+    display:flex;
+    padding: 0px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #B9FF66;
+    border-radius: 7px;
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.bg{
+   width: 160px; 
+}
+.link, .link-3{
+    display: flex;
+    align-items: center;
+}
+.link a{
+    color: var(--Black, #000);
+    font-family: "Space Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 15px;
+}
+.cadr-img{}
+.cadr-img img{}
+
+.card-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    padding: 50px;
+    background-color: #B9FF66;
+    border-radius: 45px;
+    border: 1px solid var(--Dark, #191A23);
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+.heading-2 label{
+    display:flex;
+    padding: 0px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color:white;
+    border-radius: 7px;
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.card-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    padding: 50px;
+    background-color:#191A23;
+    border-radius: 45px;
+    border: 1px solid var(--Dark, #191A23);
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+.heading-3 label{
+    display:flex;
+    padding: 0px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color:white;
+    border-radius: 7px;
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.link-3 a{
+    color: white;
+    font-family: "Space Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 15px;
 }
