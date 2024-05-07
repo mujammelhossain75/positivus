@@ -54,11 +54,45 @@
 /*----------------
     HEADER END
 -----------------*/
+.case-parent{
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.line{
+    width: 250px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+/*----------------
+   CASE END
+-----------------*/
+.company-logo{
+    flex-wrap: wrap;
+ }
+ .images{
+    width: 30%;
+    height: auto;
+    padding: 10px 0;
+ }
 
+/*----------------
+company-logo END
+-----------------*/
+.block-p p{
+    font-size: 18px;
+    width: 600px;
+    text-align: center;
+ 
+ }
+ /*----------------
+  PROCESS BLOCK END
+-----------------*/
 
     
 
 }
+
 @media (max-width: 575px) {
     .header-container{
         flex-direction: column;
@@ -87,7 +121,8 @@
    LOGOTYPES END
 -----------------*/
 .subtitle{
-    display: inline-flex;
+    width: 100%;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -105,7 +140,7 @@ font-weight: 400;
 line-height: 24px;
 }
 /*----------------
-    SUBTITLE END
+  SUBTITLE-1 END
 -----------------*/
 .card-parent{
     flex-direction: column;
@@ -122,8 +157,90 @@ line-height: 24px;
 .cadr-img img{
     width: 100%;
 }
+/*----------------
+   CARD END
+-----------------*/
+.cta-parent{
+    width: 100%;
+    flex-direction: column;
+}
+.cta-text{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+.cta-text h3{
+    font-size: 25px;
+}
+.cta-text p{
+    font-size: 20px;
+}
+/*----------------
+     CTA END
+-----------------*/
+.case-parent{
+    flex-direction: column;
+}
+.line{
+    width: 250px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+/*----------------
+   CASE END
+-----------------*/
+.sub-4{
+    width: 350px;
+    flex-shrink: 0;
+    text-align: center;
+}
+.sub-4 p{
+    font-size: 18px;
+}
+/*----------------
+  SUBTITLE-3 END
+-----------------*/
+.block-1, .block-2{
+    padding: 30px 0px;
+    width: 350px;
+}
+.block-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.block-p p{
+   font-size: 15px;
+   width: 300px;
 
-
+}
+.block-icon{
+    padding-bottom: 10px;
+}
+.block-icon ul, .block-2 ul{
+    width: 300px;
+    padding-bottom: 5px;
+    
+}
+.block-icon ul li a, .block-2 ul li a{
+   font-size: 20px;
+}
+.block-icon ul li a label, .block-2 ul li a label{
+    font-size: 18px;
+ }
+ .block-icon ul span, .block-2 ul span{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+/*----------------
+PROCESS BLOCK END
+-----------------*/
 
     
 }

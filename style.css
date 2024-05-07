@@ -174,17 +174,17 @@ nav{
 -----------------*/
 .header-subtitle{}
 .subtitle{
-    padding: 20px 0px;
+    padding: 60px 0px;
     display: flex;
     justify-content:flex-start;
     align-items: center;
+    gap: 30px;
 }
 .sub-1{
     width: 164px;
     height: 51px;
     background-color: #B9FF66;
     border-radius: 12px;
-    margin-right: 40px;
 }
 .sub-1 h2{
     font-family: "Space Grotesk";
@@ -210,7 +210,7 @@ nav{
     line-height: normal;
 }
 /*----------------
-   SUBTITLE END
+   SUBTITLE-1 END
 -----------------*/
 .card-section{}
 .card-parent{
@@ -219,7 +219,7 @@ nav{
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
-    padding: 40px 0;
+    padding: 80px 0;
 }
 .card-1{
     display: flex;
@@ -330,3 +330,222 @@ nav{
     line-height: 28px;
     padding-left: 15px;
 }
+/*----------------
+   CARD END
+-----------------*/
+.cta-section{}
+.cta-parent{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 45px;
+    background: var(--Grey, #F3F3F3);
+    padding: 30px;
+}
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+    width: 500px;
+}
+.cta-text h3{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cta-text p{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cta-text button{}
+.cta-img{}
+/*----------------
+     CTA END
+-----------------*/
+.sub-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 51px;
+    background-color: #B9FF66;
+    border-radius: 12px;
+    text-align: center;
+    gap: 30px;
+}
+.sub-2 h2{
+    font-family: "Space Grotesk";
+    font-size: 45px;
+    font-style: normal;
+    font-weight:500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+/*----------------
+   SUBTITLE-2 END
+-----------------*/
+.case-studio{
+    padding: 50px 0px;
+}
+.case-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 70px 60px;
+    gap: 64px;
+    border-radius: 45px;
+    margin: 0 auto;
+   
+}
+.case-1{
+    width: 286px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.case-1 p{
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.case-link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.case-link li{
+    color: #B9FF66;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.line{
+    width: 1px;
+    height: 186px;
+    background-color: #FFFFFF;
+}
+/*----------------
+   CASE END
+-----------------*/
+.sub-text-4{
+    width: 300px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B9FF66;
+    border-radius: 12px;
+    text-align: center;
+    gap: 30px;
+}
+.sub-4{
+    width: 292px;
+    flex-shrink: 0;
+}
+/*----------------
+  SUBTITLE-3 END
+-----------------*/
+.process-block{
+    padding: 30px 0;
+}
+.process-parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.block-1{
+    padding: 41px 60px;
+    align-items: flex-start;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    background: var(--Green, #B9FF66);
+    box-shadow: 0px 5px 0px 0px #191A23;
+    width: 100%;
+}
+.block-icon{
+    padding-bottom: 20px;
+}
+.block-icon ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+}
+.block-icon ul li a, .block-2 ul li a{
+    width: 65px;
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.block-icon ul li a label, .block-2 ul li a label{
+    font-size: 30px;
+}
+.block-icon ul span{
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+}
+.block-p p{
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.block-p p{
+    width: 1114px;
+    height: 60px;
+    color: #000;
+    font-family: "Space Grotesk";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.block-2{
+    display: flex;
+    width: 100%;
+    padding: 41px 60px;
+    flex-direction: column;
+    padding: 30px 60px;
+    align-items: flex-start;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    background: var(--Grey, #F3F3F3);
+    box-shadow: 0px 5px 0px 0px #191A23;
+    gap: 10px;
+}
+.block-2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+/*----------------
+PROCESS BLOCK END
+-----------------*/
