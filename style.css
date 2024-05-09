@@ -225,7 +225,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 550px;
+    width: 580px;
     padding: 50px;
     background: var(--Grey, #F3F3F3);
     border-radius: 45px;
@@ -273,7 +273,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 550px;
+    width: 580px;
     padding: 50px;
     background-color: #B9FF66;
     border-radius: 45px;
@@ -299,7 +299,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 550px;
+    width: 580px;
     padding: 50px;
     background-color:#191A23;
     border-radius: 45px;
